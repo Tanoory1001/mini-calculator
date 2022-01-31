@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&family=Montserrat:ital,wght@1,700&display=swap');
+*{
+    font-family: 'Jura';
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mybtns{
+    padding: 20px;
+}
+.mybtns button{
+    font-weight:bold ;
+    padding: 5px;
+}
+input{
+    margin: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+.displaybox{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(37,37,37);
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.displaybox h3{
+    color: aquamarine;
+    font-size: 2rem;
+}
+.filespree{
+    background-color: aqua;
+}
